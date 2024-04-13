@@ -146,8 +146,7 @@ const Home1 = () => {
                     id="name"
                     value={values.name}
                     name="name"
-                    onChange={handleChange}
-                    required
+                    onChange={handleChange}          
                     placeholder="Enter Name.."
                   />
                 </div>
@@ -162,7 +161,6 @@ const Home1 = () => {
                     value={values.phone}
                     name="phone"
                     onChange={handleChange}
-                    required
                     placeholder="Enter Phone.."
                   />
                 </div>
@@ -177,7 +175,6 @@ const Home1 = () => {
                     value={values.email}
                     name="email"
                     onChange={handleChange}
-                    required
                     placeholder="Enter Email.."
                   />
                 </div>
@@ -192,7 +189,6 @@ const Home1 = () => {
                     value={values.zip}
                     name="zip"
                     onChange={handleChange}
-                    required
                     placeholder="Enter Zip/Postal Code.."
                   />
                 </div>
